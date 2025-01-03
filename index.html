@@ -219,7 +219,7 @@
     for (const banaan of bread) {
       skibidibread[banaan[0]] = {width:banaan[1], height:banaan[2]};
       im = new Image();
-      im.src="bread/"+[banaan[0]];
+      im.src=[banaan[0]];
       images[banaan[0]] = im; // do you want me to add the width and height of the image to it? no :)
     }
 
